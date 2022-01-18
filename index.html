@@ -137,6 +137,19 @@
     </header>
     <!-- ====== Header End ====== -->
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function myFunction() {
+  $("#myModal").modal('show');
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+
+
+
     <!-- ====== Hero Start ====== -->
     <section class="ud-hero" id="home">
       <div class="container">
@@ -146,10 +159,48 @@
               <h1 class="ud-hero-title">
                 Open-Source Web Template for SaaS, Startup, Apps, and More
               </h1>
+
+<div class="container">
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Watch Sumo Content Pro In Action</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LhZ3I8a-kks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  
+<script>
+$(document).ready(function() {
+	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+});
+
+</script>
+
               <p class="ud-hero-desc">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JB_XwkUKOsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<a class="popup-youtube" href="https://www.youtube.com/watch?v=TuoNvPPnr2o"><img src="assets/images/hero/play-video.png" /></a>
+
               </p>
               <ul class="ud-hero-buttons">
+<button class="ud-main-btn ud-white-btn" onclick="myFunction()">Click me</button>
+
                 <li>
                   <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                     Download Now
