@@ -1,3 +1,4 @@
+
 <!-- =========
 
 	Template Name: Play
@@ -136,12 +137,42 @@
               </h1>
 
 
-	<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;  margin-bottom: 30px;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-bottom: 30px;}</style>
+	<!-- <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;  margin-bottom: 30px;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-bottom: 30px;}</style>-->
+
+<style>
+
+#video-container {
+    position: relative;
+    width: 100%;
+    max-width: 853px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#img-block {
+    display: block;
+    opacity: 0;
+    width: 100%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+}
+
+
+</style>
 
 	<p class="ud-hero-desc">
-		<div class="embed-container"><iframe src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0"></iframe></div>
-		</p>
-
+		<div id="video-container">
+    	<img id="img-block" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACwAAAAAEAAJAAACCoSPqcvtD6OclBUAOw==" />
+    	<iframe width="853" height="505" src="https://www.youtube.com/embed/z9Ul9ccDOqE" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</p>
 
               <ul class="ud-hero-buttons text-center">
 
