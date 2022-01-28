@@ -33,7 +33,7 @@ a,
 button,
 input,
 textarea {
-  @include transition(0.3s);
+  @include transition(0.3s); 
 }
 
 a,
@@ -136,7 +136,7 @@ p {
   color: var(--white);
   cursor: pointer;
   z-index: 5;
-  @include transition(0.4s);
+  @include transition(0.4s); 
   background: var(--primary-color);
 
   &:hover {

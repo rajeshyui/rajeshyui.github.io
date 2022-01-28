@@ -247,7 +247,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 160px;
+  max-width: 350px;
 }
 
 .navbar-toggler {
@@ -675,7 +675,7 @@ p {
 
 .ud-section-title {
   max-width: 620px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .ud-section-title span {
@@ -786,12 +786,12 @@ p {
 /* ===== About CSS ===== */
 .ud-about {
   background: #f3f4fe;
-  padding: 120px 0;
+  padding: 0px 0;
 }
 
 @media (max-width: 767px) {
   .ud-about {
-    padding: 80px 0;
+    padding: 0px 0;
   }
 }
 
@@ -813,18 +813,18 @@ p {
 }
 
 .ud-about-content-wrapper {
-  padding: 70px;
+  padding: 40px;
 }
 
 @media (max-width: 767px) {
   .ud-about-content-wrapper {
-    padding: 50px 30px;
+    padding: 40px 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .ud-about-content-wrapper {
-    padding: 50px;
+    padding: 40px;
   }
 }
 
@@ -997,8 +997,8 @@ p {
 
 /* ===== FAQ CSS ===== */
 .ud-faq {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background: #f3f4fe;
   position: relative;
   z-index: 1;
@@ -1006,8 +1006,8 @@ p {
 
 @media (max-width: 767px) {
   .ud-faq {
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
 }
 
@@ -1309,13 +1309,13 @@ p {
 
 /* ===== Contact CSS ===== */
 .ud-contact {
-  padding: 120px 0px;
+  padding: 20px 0px;
   position: relative;
 }
 
 @media (max-width: 767px) {
   .ud-contact {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 }
 
@@ -1639,8 +1639,8 @@ p {
 
 /* ====== Banner CSS ======= */
 .ud-page-banner {
-  padding-top: 130px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 60px;
   background: var(--primary-color);
   background-image: url("../images/banner/banner-bg.svg");
   background-position: center;
@@ -2083,7 +2083,7 @@ p {
   background-size: cover;
   padding: 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
