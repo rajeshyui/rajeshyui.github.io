@@ -48,20 +48,20 @@
               <div class="navbar-collapse">
                 <ul id="nav" class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#home">Home</a>
+                    <a class="ud-menu-scroll" href="index.html">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">Features</a>
+                    <a class="ud-menu-scroll" href="features.html">Features</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#pricing">FAQ</a>
+                    <a class="ud-menu-scroll" href="faq.html">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Reviews</a>
+                    <a class="ud-menu-scroll" href="reviews.html">Reviews</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
+                    <a class="ud-menu-scroll" href="contact.html">Contact</a>
                   </li>
                <!--   <li class="nav-item nav-item-has-children">
                     <a href="javascript:void(0)"> Pages </a>
