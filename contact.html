@@ -292,5 +292,27 @@
 
    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+      $(function () {
+
+        $('form').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'https://send.pageclip.co/FOeatpReXVX2Ax8zcDDjmjO2ztyUc0Yv/contactform',
+            data: $('form').serialize(),
+            success: function () {
+              alert('form was submitted');
+            }
+          });
+
+        });
+
+      });
+    </script>
+
   </body>
 </html>
